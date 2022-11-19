@@ -1,0 +1,33 @@
+.wrapper__categories {
+	display: none !important;
+}
+
+.article__title {
+	font-size: 1.2rem;
+	color: var(--title-color);
+	line-height: 2;
+}
+
+.article__title:hover {
+	text-decoration: underline;
+}
+
+.article__paragraph {
+	color: var(--paragraph-color);
+	line-height: 1.5;
+}
+
+.article__link:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.wrapper__article {
+/*		flex-grow: 1;*/
+		width: 100%;
+	}
+}
