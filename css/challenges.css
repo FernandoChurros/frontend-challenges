@@ -1,0 +1,29 @@
+.wrapper__challenges {
+	position: relative;
+}
+
+.challenges__btn_back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 1rem 0 0 1rem;
+	background-color: transparent;
+	border: none;
+}
+
+.challenges__article {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.challenges__social_media {
+	display: flex;
+	column-gap: 1rem;
+	margin-left: 1rem;
+}
+
+.icon-arrow:hover {
+	transition: transform .5s ease;
+	transform: scale(1.05);
+}
