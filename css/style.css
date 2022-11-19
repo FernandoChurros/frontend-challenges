@@ -45,3 +45,7 @@
 	color: var(--paragraph-color);
 	cursor: pointer;
 }
+
+.hide {
+	display: none;
+}

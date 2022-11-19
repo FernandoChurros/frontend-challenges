@@ -11,21 +11,21 @@
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="body">
-	<section class=" wrapper wrapper__categories">
-		<article class="wrapper__article categories__article">
+	<section id="categories" class="wrapper wrapper__categories">
+		<article id="frontend-mentor" class="wrapper__article categories__article">
 			<i class="fa-solid fa-folder"></i>
 			<h2 class="article__title">FrontEnd Mentor</h2>
 			<p class="article__paragraph">Desafios concluídos da plataforma <a class="article__link" href="https://www.frontendmentor.io/home" target="_blank" title="Website FrontEnd Mentor">FrontEnd Mentor.</a></p>
 		</article>
 
-		<article class="wrapper__article categories__article">
+		<article id="alura" class="wrapper__article categories__article">
 			<i class="fa-solid fa-folder"></i>
 			<h2 class="article__title">Alura Challenges</h2>
 			<p class="article__paragraph">Desafios concluídos da plataforma <a class="article__link" href="https://www.alura.com.br/" target="_blank" title="Website Alura">Alura.</a></p>
 		</article>
 	</section>
 
-	<section class="wrapper wrapper__challenges">
+	<section id="challenges-frontend-mentor" class="wrapper wrapper__challenges hide">
 		<button id="btn-back" class="challenges__btn_back"><i class="fa-solid fa-arrow-left-long icon icon-arrow"></i></button>
 
 		<article class="wrapper__article challenges__article">
@@ -44,5 +44,7 @@
 			</div>
 		</article>
 	</section>
+
+	<script src="./app/main.js"></script>
 </body>
 </html>
